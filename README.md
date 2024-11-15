@@ -7,14 +7,65 @@ The objective of this project is to create a collection of classic games using P
 - 👾 Space Invaders
 
 ## 🕹️ Functionality
+
 ### 🐍 Snake Game
 Control the snake using the arrow keys. Eat the green food to grow the snake and increase your score. The game ends if the snake collides with the walls or itself.
+
+#### Controls
+- Arrow keys: Move the snake
+
+#### Features
+- Dynamic snake growth
+- Score display
+- Game over message
+
+#### Code Structure
+- **[`snake_game.py`](snake_game.py)**: Contains the code for the Snake Game.
+  - `our_snake(snake_block, snake_list)`: Draws the snake on the screen.
+  - `message(msg, color)`: Displays a message on the screen.
+  - `your_score(score)`: Displays the current score.
+  - `gameLoop()`: Main game loop handling game logic and events.
 
 ### 🏓 Pong Game
 Play against the computer. Use the up and down arrow keys to control your paddle. The game ends when the ball goes out of bounds.
 
+#### Controls
+- Up arrow key: Move paddle up
+- Down arrow key: Move paddle down
+
+#### Features
+- AI-controlled opponent
+- Score display
+- Game over message
+
+#### Code Structure
+- **[`pong_game.py`](pong_game.py)**: Contains the code for the Pong Game.
+  - `message(msg, color)`: Displays a message on the screen.
+  - `gameLoop()`: Main game loop handling game logic and events.
+
 ### 👾 Space Invaders
 Control the spaceship using the left and right arrow keys. Shoot the enemies by pressing the space bar. The game ends when the enemies reach the bottom of the screen.
+
+#### Controls
+- Left arrow key: Move spaceship left
+- Right arrow key: Move spaceship right
+- Space bar: Shoot
+
+#### Features
+- Multiple enemies
+- Bullet firing
+- Collision detection
+- Score display
+- Game over message
+
+#### Code Structure
+- **[`space_invaders.py`](space_invaders.py)**: Contains the code for the Space Invaders Game.
+  - `player(x, y)`: Draws the player on the screen.
+  - `enemy(x, y)`: Draws an enemy on the screen.
+  - `fire_bullet(x, y)`: Fires a bullet from the player's position.
+  - `isCollision(enemyX, enemyY, bulletX, bulletY)`: Checks for collisions between bullets and enemies.
+  - `show_score(x, y)`: Displays the current score.
+  - `game_over_text()`: Displays the game over message.
 
 ## 🛠️ Tools Used
 - **🐍 Python**: The main programming language used for the development of the games.
@@ -28,12 +79,12 @@ Control the spaceship using the left and right arrow keys. Shoot the enemies by 
 5. **📄 Documentation**: Created this README file to document the project.
 
 ## 🗂️ Project Structure
-- **main.py**: The main menu to select which game to play.
-- **snake_game.py**: Contains the code for the Snake Game.
-- **pong_game.py**: Contains the code for the Pong Game.
-- **space_invaders.py**: Contains the code for the Space Invaders Game.
-- **requirements.txt**: Lists the dependencies required to run the project.
-- **README.md**: This file, providing an overview of the project.
+- **[`main.py`](main.py)**: The main menu to select which game to play.
+- **[`snake_game.py`](snake_game.py)**: Contains the code for the Snake Game.
+- **[`pong_game.py`](pong_game.py)**: Contains the code for the Pong Game.
+- **[`space_invaders.py`](space_invaders.py)**: Contains the code for the Space Invaders Game.
+- **[`requirements.txt`](requirements.txt)**: Lists the dependencies required to run the project.
+- **[`README.md`](README.md)**: This file, providing an overview of the project.
 
 ## 🤝 Collaborations
 We welcome collaborations! If you would like to contribute to this project, please follow these steps:
@@ -53,8 +104,33 @@ If you have any questions or need further assistance, feel free to contact us:
 - 💼 LinkedIn: [My LinkedIn Profile](www.linkedin.com/in/juan-duran-bon)
 
 ## 🚀 How to Run
-1. Clone the repository
-2. Navigate to the project directory
-3. Install the dependencies
-4. Run the main menu
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Jotis86/Classic-games-collection.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Classic-games-collection
+    ```
+3. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Run the main menu:
+    ```sh
+    python main.py
+    ```
 5. Enjoy playing the games! 🎉
+
+## 🛠️ Future Enhancements
+We plan to add more features and improvements to the games in the future, including:
+- Adding sound effects and background music
+- Implementing different levels of difficulty
+- Enhancing the graphics and animations
+- Adding more classic games to the collection
+
+
+## 🙏 Acknowledgements
+We would like to thank the following resources and communities for their support and inspiration:
+- [Pygame](https://www.pygame.org/) for providing the game development library
+- [GitHub](https://github.com/) for hosting the project repository
