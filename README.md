@@ -2,6 +2,14 @@
 
 ![Game Collection](images/juegos.png)
 
+![Commits](https://img.shields.io/github/commit-activity/m/Jotis86/Classic-Games-Collection)
+![Issues Abiertas](https://img.shields.io/github/issues/Jotis86/Classic-Games-Collection)
+![Pull Requests](https://img.shields.io/github/issues-pr/Jotis86/Classic-Games-Collection)
+![Forks](https://img.shields.io/github/forks/Jotis86/Classic-Games-Collection)
+![Tamaño del Repositorio](https://img.shields.io/github/repo-size/Jotis86/Classic-Games-Collection)
+![Autor](https://img.shields.io/badge/autor-Juan%20Duran%20Bon-blue)
+![Licencia](https://img.shields.io/github/license/Jotis86/Classic-Games-Collection)
+
 ## 🎯 Objectives
 The objective of this project is to create a collection of classic games using Python and Pygame. The games included in this collection are:
 - 🐍 Snake Game
