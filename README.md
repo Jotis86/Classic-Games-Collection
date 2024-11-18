@@ -134,3 +134,7 @@ We plan to add more features and improvements to the games in the future, includ
 We would like to thank the following resources and communities for their support and inspiration:
 - [Pygame](https://www.pygame.org/) for providing the game development library
 - [GitHub](https://github.com/) for hosting the project repository
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
