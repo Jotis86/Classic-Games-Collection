@@ -1,5 +1,7 @@
 # 🎮 Game Collection by Jotis 🎮
 
+![Game Collection](images/juegos.png)
+
 ## 🎯 Objectives
 The objective of this project is to create a collection of classic games using Python and Pygame. The games included in this collection are:
 - 🐍 Snake Game
